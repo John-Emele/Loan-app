@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-6 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="loan-page">
+        <div class="form-container" > 
+       
+    <div class="balance-container">
+        <div class="reward">
+            <h3>Balance</h3>
+            <div class="coin">
+                <p id="points">0</p>
+                <img src="images/coin.png" alt="" class="coin-img">
+            </div>
+        </div>
+        <div class="accnt-bal">
+            <p>₦  <span id="accnt-bal-amnt">0</span></p>
+            
+            
+        </div>   
+     </div>
+        <form class="form" id="information">
+            <p>Full Name</p>
+            <label for="First-name">
+                <input type="text" id="test"  class="Ipt-2" >
+            </label>
+            <p>Age</p>
+             <label for="">
+                <input type="text"  id="test1" class="Ipt-2">
+            </label>
+            <p>Email</p>
+             <label for="">
+                <input type="email"  id="test2" class="Ipt-2">
+            </label>
+            <p>Gender</p>
+            <select name="" id="Gender" class="Ipt-2">
+                <option value=""></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <p>Last Loan</p>
+             <label for="">
+                   <!-- <select name="" id="period-2" class="Ipt-2">
+                <option value=""></option>
+                <option value="1">1 month</option>
+                <option value="2">2 month</option>
+                <option value="3">3 month</option>
+                <option value="4">4 month</option>
+                <option value="5">5 month</option>
+                <option value="6">6 month</option>
+                <option value="7">7 month</option>
+                <option value="8">8 month</option>
+                <option value="9">9 month</option>
+                <option value="10 ">10 month</option>
+                <option value="11 ">11 month</option>
+                <option value="12">1 year</option>
+             </select> -->
+                <input type="date" placeholder="" id="period-2" class="Ipt-2">
+            </label>
+            <p>Last Deposit Date</p>
+             <label for="">
+                <input type="date"  id="test4" class="Ipt-2">
+                <p></p>
+            </label>
+            
+            <p>Repayment Period</p>
+             <!-- <select name="" id="period" class="Ipt-2">
+                <option value=""></option>
+                <option value="1 month">1 month</option>
+                <option value="2 months">2 months</option>
+                <option value="3 months">3 months</option>
+                <option value="4 months">4 months</option>
+                <option value="5 months">5 months</option>
+                <option value="6 months">6 months</option>
+                <option value="7 months">7 months</option>
+                <option value="8 months">8 months</option>
+                <option value="9 months">9 months</option>
+                <option value="10 months">10 months</option>
+                <option value="11 months">11 months</option>
+                <option value="1 year">1 year</option>
+             </select> -->
+             <input type="date"  id="period" class="Ipt-2" >
+        
+
+            <p>Last Credit Date</p>
+             <label for="">
+                <!-- <select name="" id="period-1" class="Ipt-2">
+                <option value=""></option>
+                <option value="1">1 month</option>
+                <option value="2">2 month</option>
+                <option value="3">3 month</option>
+                <option value="4">4 month</option>
+                <option value="5">5 month</option>
+                <option value="6">6 month</option>
+                <option value="7">7 month</option>
+                <option value="8">8 month</option>
+                <option value="9">9 month</option>
+                <option value="10 ">10 month</option>
+                <option value="11 ">11 month</option>
+                <option value="12">1 year</option>
+             </select> -->
+            <input type="date" name="" id="period-1" class="Ipt-2">
+            </label>
+            <label for=""></label>
+            <p>Account Type</p>
+            <select name="" id="accnt-slct" class="Ipt-2">
+                <option value=""></option>
+                <option value="33">Current</option>
+                <option value="Savings">Savings</option>
+            </select>
+            <p></p>
+             <p>Loan Amount</p>
+            <label for="">
+                <input type="text" id="test6"  class="Ipt-2"  placeholder="50,000 - 1,000,000">
+                <p></p>
+            </label>
+             <p>Annual Income</p>
+            <label for="">
+                <input type="text" id="test7"  class="Ipt-2">
+                <p></p>
+            </label>
+            <p>Account Balance</p>
+            <label for=""></label>
+                <input type="text" id="test8"  class="Ipt-2"  >
+                <p></p>
+           
+            <button id="sub-btn" class="Button" type="button">submit</button>
+        </form>
+    </div> 
+    </section>
+   <div class="filled-form">
+     <p id="full-name"></p>
+    <p id="loan-amount"></p>
+    <p id="repay-date"></p>
+   </div>
+    
+
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
