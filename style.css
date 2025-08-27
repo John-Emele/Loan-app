@@ -236,7 +236,7 @@
     margin: auto;
 }
 
-.banner button{
+.banner button, .back-btn{
     background-color: black;
     padding: 10px;
     border: none;
